@@ -1,2 +1,2 @@
-# -Revert-Changes-in-rules-to-Amazon-VPC-Security-Groups-Automatically-and-Receive-Notifications.
+# Revert-Changes-in-rules-to-Amazon-VPC-Security-Groups-Automatically-and-Receive-Notifications.
 The new ingress rule added to security group, a CloudWatch event that continually monitors changes to your security groups detects the new ingress rule and invokes Lambda function.Lambda function determines whether you are monitoring this security group . o Reverts the new security group ingress rule. o Sends you an SNS Notification email to let you know what the change was, who made it, and that the change was reverted.
